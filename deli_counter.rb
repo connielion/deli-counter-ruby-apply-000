@@ -15,7 +15,7 @@ end
 def take_a_number(line, name)
   line = line.push(name);
   i = line.index(name)+1
-  puts "Welcome, #{name}. You are number #{i} in line"
+  puts "Welcome, #{name}. You are number #{i} in line."
 end
 
 def now_serving(arr)
