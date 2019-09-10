@@ -18,6 +18,7 @@ def take_a_number(line, name)
   puts "Welcome, #{name}. You are number #{i} in line."
 end
 
+# learn --fail-fast
 def now_serving(arr)
   if arr.length==0
     puts "There is nobody waiting to be served!"
