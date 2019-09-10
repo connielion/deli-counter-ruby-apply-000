@@ -27,5 +27,5 @@ def now_serving(arr)
   puts "Currently serving #{cur}."
   end
   
-  "
+  
 end
