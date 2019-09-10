@@ -19,12 +19,13 @@ def take_a_number(line, name)
 end
 
 # learn --fail-fast
-
 def now_serving(arr)
   if arr.length==0
     puts "There is nobody waiting to be served!"
+  else
+    cur = arr.shift()
+  puts "Currently serving #{cur}."
   end
   
-  cur = arr.shift()
-  puts "Currently serving #{cur}."
+  "
 end
